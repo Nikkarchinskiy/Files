@@ -1,0 +1,13 @@
+https://developer.mozilla.org/ru/docs/Web/HTTP/Status
+
+100 - information
+200 - suces
+    200 - OK
+    200 - create
+300 -redirection
+    301 Muved permound
+    302 Found
+400 - Client Error
+500 - Server Error
+  500 - internal server Error
+  502 Bad Gateway

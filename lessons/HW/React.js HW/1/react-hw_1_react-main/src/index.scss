@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.containerMain {
+  width: 146rem;
+  margin: 3% auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 768px) {
+  .containerMain {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1440px) {
+  .containerMain {
+    width: 95%;
+    margin: 3% auto;
+    // flex-direction: column;
+    flex-wrap: wrap;
+  }
+}

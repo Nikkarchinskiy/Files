@@ -1,0 +1,196 @@
+header {
+  background-image: url("./images/bg_Profile.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 20rem;
+}
+
+.secondWrapperProfile {
+  height: 5rem;
+  padding-left: 18%;
+  display: flex;
+  align-items: center;
+
+  background-color: #333;
+}
+
+.profile {
+  width: 144rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainImgProfile {
+  padding-top: 1rem;
+  width: 13rem;
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wrapperImgProfile {
+  width: 16rem;
+  height: 16rem;
+  border: 1rem solid #1c6ea4;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+.mainInfoProfileWrapper {
+  display: flex;
+  align-items: center;
+
+  padding-top: 5.7%;
+}
+
+.locationInfo {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+
+  color: #2693db;
+}
+
+.contentInfoProfile {
+  margin-left: 1rem;
+}
+
+.nameProfile {
+  font-size: 3rem;
+  color: #2693db;
+}
+
+.MuiSvgIcon-root {
+  font-size: 3.4rem !important;
+
+  margin-right: 1rem;
+}
+
+.tagName {
+  font-size: 1.8rem;
+}
+
+.statsProfile {
+  display: flex;
+  padding-top: 52%;
+}
+
+.statsInfo {
+  display: block;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.statsCount {
+  display: block;
+  font-size: 2.4rem;
+  text-align: center;
+  color: #2693db;
+}
+
+.descriptionStats {
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+  color: #2693db;
+}
+
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  .profile {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .nameProfile {
+    font-size: 2.5rem;
+  }
+
+  .tagName {
+    font-size: 1.3rem;
+  }
+
+  .wrapperImgProfile {
+    width: 12rem;
+    height: 12rem;
+    border: 0.7rem solid #1c6ea4;
+  }
+  .mainImgProfile {
+    width: 10rem;
+  }
+
+  .mainInfoProfileWrapper {
+    padding-top: 16%;
+  }
+
+  .statsCount {
+    font-size: 2rem;
+  }
+
+  .descriptionStats {
+    font-size: 1.6rem;
+  }
+
+  .statsProfile {
+    padding-top: 66%;
+  }
+
+  .locationInfo {
+    font-size: 1.6rem;
+  }
+
+  .MuiSvgIcon-root {
+    font-size: 3rem !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .profile {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .mainInfoProfileWrapper {
+    padding-top: 7.5%;
+  }
+
+  .nameProfile {
+    padding-top: 1.5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .profile {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .locationInfo {
+    margin-left: -8rem;
+  }
+
+  .nameProfile {
+    padding-top: 4rem;
+    font-size: 3.3rem;
+  }
+
+  .mainInfoProfileWrapper {
+    padding-top: 5.5%;
+  }
+}
+
+@media (min-width: 1700px) {
+  .mainInfoProfileWrapper {
+    padding-top: 4%;
+    padding-left: 5%;
+  }
+}

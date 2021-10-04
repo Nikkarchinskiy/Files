@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btnsChange {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  display: block;
+  width: 8rem;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  font-size: 2rem;
+}
+
+.field {
+  margin: 1rem;
+}
+
+.timerInfo {
+  display: flex;
+  font-size: 3rem;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.infoDate {
+  margin: 1rem;
+}

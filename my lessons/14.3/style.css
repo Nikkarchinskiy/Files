@@ -1,0 +1,15 @@
+button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    margin-left: 30px;
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
+label {
+    margin-bottom: 5px;
+}

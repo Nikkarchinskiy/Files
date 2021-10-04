@@ -1,0 +1,219 @@
+@media screen and (max-width: 1200px) {
+    .main-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        flex-wrap: wrap;
+    }
+    .block-1 {
+        width: 100%;
+        height: 50%;
+    }
+
+    .logo-1 {
+        left: 34vw;
+        width: 32vw;
+    }
+
+    .title-1 {
+        position: absolute;
+        font-size: 15vw;
+        font-weight: bold;
+        top: 22vw;
+        letter-spacing: 3px;
+    }
+
+    .block-2 {
+        width: 100%;
+        height: 50%;
+    }
+
+    .logo-2 {
+        top: 14vw;
+        left: 34vw;
+        width: 35vw;
+    }
+
+    .title-2 {
+        position: absolute;
+        font-size: 15vw;
+        font-weight: bold;
+        top: 22vw;
+        letter-spacing: 3px;
+    }
+
+    /* JS===============================================Block-1 */
+
+.animation-block1 {
+    width: 75%;
+    height: 100%;
+    font-size: 60vw;
+    transform: rotate(0deg);
+    transition: 0.7s;
+}
+
+.animation-block2-1 {
+    width: 25%;
+    height: 100%;
+}
+
+.animation-logo1 {
+    left: 1vw;
+    opacity: 1;
+}
+
+.animation-title1 {
+    color: #FF490B;
+    transform: rotate(0);
+    font-size: 10vw;
+    top: 40vw;
+}
+
+.animation-title2-1 {
+    color: white;
+    transform: rotate(-90deg);
+    bottom: 1vw;
+    right: -95vw;
+    font-size: 20vw;
+    width: max-content;
+    inset: 36vw 0vw -51vw 50vw;
+}
+
+.animation-btn1 {
+    opacity: 1;
+}
+
+.animation-logo2-1 {
+    opacity: 0 !important;
+    right: 10vw;
+}
+
+.animation-button1 {
+    position: absolute;
+    font-family: 'Gilroy';
+    opacity: 1;
+    bottom: 0;
+    width: 60vw;
+    height: 13vw;
+    font-size: 5vw;
+    left: 7vw;
+    border: 2px solid;
+    border-color: #FF490B;
+    border-radius: 40px;
+    color: white;
+    outline: none;
+    background-color: Transparent;
+    transition: 0.5s;
+    font-size: 6vw;
+    transform: translateY(-50px);
+}
+
+.animation-text1 {
+    position: absolute;
+    opacity: 1;
+    top: 35vw;
+    right: 12vw;
+    font-size: 4.7vw;
+    line-height: 7vw;
+    width: 50vw;
+    transition: 0.7s;
+    color: white;
+    transition: 0.7s;
+    transform: translateY(100px);
+    text-align: right;
+}
+
+.animation-text2-1 {
+    opacity: 0;
+    transition: 0.7s;
+}
+
+/* JS=======================================================Block-2 */
+
+.animation-block2 {
+    width: 75%;
+    height: 100%;
+    font-size: 1vw;
+    transition: 0.7s;
+}
+
+.animation-title1-2 {
+    transform: rotate(-90deg);
+    font-size: 20vw;
+    top: 60vw;
+    left: -1vw;
+    color: white;
+}
+
+.animation-block1-2 {
+    width: 25%;
+    height: 100%;
+}
+
+.animation-title2 {
+    color: #2ED9C3;
+    transform: rotate(0);
+    font-size: 10vw;
+    inset: 40vw -83vw 156vw 1vw;
+}
+
+.animation-logo2 {
+    opacity: 1;
+    inset: 1vw;
+}
+
+.animation-button2 {
+    opacity: 1 ;
+}
+
+.animation-button1-2 {
+    position: absolute;
+    font-family: 'Gilroy';
+    opacity: 0;
+    bottom: 0;
+    width: 60vw;
+    height: 13vw;
+    font-size: 5vw;
+    left: 7vw;
+    border: 2px solid;
+    border-color: #FF490B;
+    border-radius: 40px;
+    color: white;
+    outline: none;
+    background-color: Transparent;
+    transition: 0.5s;
+    font-size: 6vw;
+    transform: translateY(50px);
+}
+
+.animation-button2 {
+    opacity: 1;
+    width: 55vw;
+    inset: 177vw 0vw 0vw 12vw;
+    height: 10vw;
+    font-size: 5vw;
+}
+
+.animation-text2 {
+    position: absolute;
+    opacity: 1;
+    top: 62vw;
+    left: 11vw;
+    font-size: 4.7vw;
+    line-height: 7vw;
+    width: 60vw;
+    color: white;
+    text-align: left;
+    transition: 0.7s;
+}
+
+.animation-text1-2 {
+    opacity: 0;
+    transition: 0.7s;
+}
+
+  }
+
+  /* JS========================================End */

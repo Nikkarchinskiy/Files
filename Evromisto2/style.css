@@ -1,0 +1,314 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url("./fonts/AttractiveCond-Bold.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy';
+    overflow: hidden;
+}
+
+.main-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.block-1 {
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    background-image: url('./image/Mask\ Group.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.7s;
+    overflow: hidden;
+}
+@media screen and (min-width: 1200px) {
+    .block-1:hover {
+        width: 85%;
+    }
+}
+
+
+.block-1:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(43, 43, 43, 0);
+    transition: 0.7s;
+}
+
+@media screen and (min-width: 1200px) {
+.block-1:hover::before {
+    opacity: 1;
+    background: rgba(43, 43, 43, 0.6);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+.block-1:hover .title-1 {
+    color: #FF490B;
+    transform: translate(33%, 50%);
+    transition: 0.7s;
+    margin-right: 2vw;
+    }
+}
+
+.title-1 {
+    text-align: center;
+    color: white;
+    z-index: 1;
+    font-size: 3vw;
+    width: 100%;
+    transition: 0.7s;
+    transform: translate(0, 50%);
+}
+
+.logo-1 {
+    position: absolute;
+    top: 2.2vw;
+    left: 2.2vw;
+    width: 10vw;
+    transition: 0.7s;
+}
+
+.text-block-1 {
+    position: absolute;
+    bottom: 5vw;
+    right: 5vw;
+    text-align: right;
+    font-size: 1.25vw;
+    color: white;
+    opacity: 0;
+    transition: 0.7s;
+    transform: translateY(100px);
+}
+
+@media screen and (min-width: 1200px) {
+.block-1:hover .text-block-1 {
+    opacity: 1;
+    transform: translateY(0);
+    }
+}
+
+.btn-block-1 {
+    opacity: 0;
+    font-family: 'Gilroy';
+    position: absolute;
+    left: 8em;
+    bottom: 6em;
+    width: 13.5vw;
+    height: 3.1vw;
+    border: 2px solid;
+    border-color: #FF490B;
+    border-radius: 40px;
+    color: white;
+    outline: none;
+    background-color: Transparent;
+    transition: 0.5s;
+    font-size: 1.1vw;
+    transform: translateY(50px);
+    z-index: 1;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) {
+.btn-block-1:hover {
+    background-color: #FF490B;
+    box-shadow: 0 15px 60px #FF490B;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+.block-1:hover .btn-block-1 {
+    opacity: 1;
+    transform: translateY(0);
+    }
+}
+
+.block-2 {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    background-image: url('./image/43\ 1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.7s;
+    overflow: hidden;
+}
+
+.block-2:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(43, 43, 43, 0.7);
+    transition: 0.7s;
+    opacity: 1;
+}
+
+@media screen and (min-width: 1200px) {
+.block-2:hover {
+    width: 85%;
+    transition: 0.7s;
+    justify-content: left;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+.block-1:hover ~ .block-2::before {
+    opacity: 0;
+    }
+}
+
+.title-2 {
+    text-align: center;
+    color: white;
+    z-index: 1;
+    font-size: 3vw;
+    width: 100%;
+    transition: 0.7s;
+    transform: translate(0, 50%);
+}
+
+@media screen and (min-width: 1200px) {
+.block-2:hover .title-2 {
+    color: #2ED9C3;
+    margin-left: 5.5vw;
+    transition: 0.7s;
+    transform: translate(-37.5%, 50%);
+    box-sizing: content-box;
+    }
+}
+
+.logo-2 {
+    position: absolute;
+    top: 2.2vw;
+    right: 2.2vw;
+    width: 10vw;
+    transition: 0.7s;
+}
+
+.text-block-2 {
+    opacity: 0;
+    position: absolute;
+    bottom: 5vw;
+    left: 4em;
+    text-align: left;
+    width: 28vw;
+    font-size: 1.25vw;
+    color: white;
+    transition: 0.7s;
+    transform: translateY(100px);
+}
+
+@media screen and (min-width: 1200px) {
+.block-2:hover .text-block-2 {
+    opacity: 1;
+    transition: 0.7s;
+    transform: translateY(0);
+    }
+}
+
+.btn-block-2 {
+    opacity: 0;
+    font-family: 'Gilroy';
+    position: absolute;
+    right: 8em;
+    bottom: 6em;
+    width: 13.5vw;
+    height: 3.1vw;
+    border: 2px solid;
+    border-color: #2ED9C3;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    background-color: Transparent;
+    transition: 0.5s;
+    font-size: 1.1vw;
+    transform: translateY(50px);
+    z-index: 1;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) {
+.block-2:hover .btn-block-2 {
+    opacity: 1;
+    transition: 0.7s;
+    transform: translateY(0);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+.btn-block-2:hover {
+    background-color: #2ED9C3;
+    box-shadow: 0 15px 60px #2ED9C3;
+    transition: 0.5s;
+    }
+}
+
+
+
+/*
+block1.addEventListener("click", function () {
+    this.classList.add('animation-block1');
+    block2.classList.remove('animation2');
+    mainBlock.style.flexDirection = "row";
+    block2.style.width = "25%";
+    block2.style.height = "100%";
+    logo1.style.left = "1vw";
+    logo1.style.opacity = "1";
+    logo2.style.opacity = "0";
+    title1.style.transform = "rotate(0)";
+    title1.style.fontSize = "10vw";
+    title1.style.top = "50vw";
+    title1.style.color = "#FF490B";
+    title2.style.color = "white";
+    title2.style.transform = "rotate(-90deg)";
+    title2.style.bottom = "1vw";
+    title2.style.right = "-95vw";
+    title2.style.fontSize = "20vw";
+    title2.style.width = "max-content";
+    title2.style.inset = "36vw 0vw -51vw 50vw";
+    // right: -38vw;
+    // left: auto;
+    // bottom: auto;
+    // top: 126vw;
+}); */
+
+/* // block2.addEventListener("click", function () {
+    //     mainBlock.style.flexDirection = "row";
+    //     block2.style.width = "75%";
+    //     block2.style.height = "100%";
+    //     block1.style.width = "25%";
+    //     block1.style.height = "100%";
+    //     title1.style.fontSize = "10vw";
+    //     title1.style.top = "50vw";
+    //     title1.style.transform = "rotate(-90deg)";
+    //     title2.style.fontSize = "8vw";
+    //     title2.style.top = "25vw";
+    //     title2.style.right = "1vw";
+    //     title2.style.zIndex = "1";
+    //     title2.style.transform = "rotate(0deg)";
+    //     logo1.style.opacity = "0";
+    //     logo1.style.left = "5vw";
+    //     logo1.style.transistion = "0.7s";
+    //     logo2.style.opacity = "1";
+    //     logo2.style.transistion = "0.7s";
+    // }); */

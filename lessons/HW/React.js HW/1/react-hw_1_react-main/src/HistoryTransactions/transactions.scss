@@ -1,0 +1,91 @@
+.TransactionsWrapper {
+  width: 33%;
+  // background-color: cadetblue;
+}
+
+.transactionsTitle {
+  font-size: 3.5rem;
+
+  text-align: center;
+}
+
+.containerRowsNames {
+  background-color: #95a5a6;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+
+  border-radius: 3px;
+  padding: 25px 30px;
+
+  margin-bottom: 25px;
+}
+
+.wrapperTableRowNames {
+  display: flex;
+  margin-left: auto;
+  width: 75%;
+}
+
+.tableNameRow {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+}
+
+.containerTableData {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #ffffff;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+
+  margin: 1rem 0;
+}
+
+.idTable {
+  text-align: center;
+}
+
+.marginTableRow {
+  width: 25%;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 1.5rem;
+}
+
+.tableNameRow {
+  width: 45%;
+  text-align: center;
+}
+
+.wrapperTable {
+  margin: 1rem;
+}
+
+@media (max-width: 768px) {
+  .TransactionsWrapper {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .TransactionsWrapper {
+    width: 45%;
+  }
+
+  .tableNameRow {
+    font-size: 1.6rem;
+  }
+
+  .transactionsTitle {
+    font-size: 2.5rem;
+  }
+
+  .wrapperAvatarFriend {
+    width: 8rem;
+    height: 8rem;
+  }
+}

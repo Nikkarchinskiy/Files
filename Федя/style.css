@@ -1,0 +1,15 @@
+.main-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+};
+
+.picture-1 {
+    background-color: black;
+    display: flex;
+    align-items: center;
+};
+
+.title {
+    background-color: yellow;
+}
